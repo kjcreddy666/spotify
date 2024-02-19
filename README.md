@@ -4,8 +4,6 @@ This project is a Spotify clone, aiming to replicate the user interface and func
 
 ## Features
 
-- **User Authentication**: Users can create accounts, log in, and access personalized content.
-- **Search and Browse**: Users can search for songs, albums, and artists, and browse through curated playlists.
 - **Playback Controls**: The interface includes playback controls for playing, pausing, skipping tracks, adjusting volume, and viewing current playback progress.
 - **Playlist Creation and Management**: Users can create, edit, and delete playlists, as well as add and remove songs from their playlists.
 - **Discover Weekly**: A feature that generates a personalized playlist based on the user's listening habits.
@@ -15,8 +13,6 @@ This project is a Spotify clone, aiming to replicate the user interface and func
 
 - **HTML**: Used for structuring the content of the web page.
 - **CSS**: Utilized for styling the elements and layout of the web page.
-- **JavaScript**: Implemented for adding interactivity and dynamic behavior to the web page.
-- **Firebase Authentication**: Utilized for user authentication and management.
 
 ## Installation and Usage
 
