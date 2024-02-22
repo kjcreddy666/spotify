@@ -1,70 +1,124 @@
 body {
-    font-family: 'Montserrat', sans-serif;
     margin : 0;
-    background-color: #000;
-    color : #fff;
+    padding : 0;
+    background-color : #000000;
+    color : white;
+    width : 100vw;
+    height : 100vh;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
     display : flex;
+}
+
+.sidebar, .main-content {
+    margin-top: 0.75rem;
     height : 100vh;
 }
 
 .sidebar {
-    width : 420px;
-    border-radius: 1rem;
-    background-color: #000;
-    padding : 0.55rem 0.6rem
+    width : 25rem;
 }
 
-.sidebar .nav {
-    height : 6.25rem;
-    width : 94%;
+.nav-options, .library, .main-content {
+    border-radius: 1rem;
     background-color: #121212;
-    border-radius: 1rem;
+}
+
+/************************************************** nav-options ********************************************************************************/
+.nav-options, .library {
+    width : 89%;
+    margin-left : 0.7rem;
+    padding-left : 1.5rem;
+}
+
+.nav-options {
+    height : 7rem;
     display : flex;
-    flex-direction: column;
-    justify-content: center;
-    padding : 1rem 0.75rem 0.5rem 0.75rem;
+    flex-direction : column;
+    justify-content: space-evenly;
 }
 
-.nav-option {
-    height : 2.5rem;
-    opacity : 0.7;
-    padding : 0.5rem 0.75rem;
+.nav-options i {
+    color : white;
+    font-size : 1.5rem;
 }
 
-.nav-option:hover {
-    opacity: 1;
-}
-
-.nav-option i {
-    font-size: 1.25rem;
-}
-
-.nav-option a {
-    margin-left : 0.5rem;
-    font-size: 1rem;
-    color : #fff;
+.nav-options a {
+    margin-left : 1.5rem;
     text-decoration: none;
+    color : white;
+    font-size :  1rem;
+    font-weight: 600;
 }
 
-.sidebar .library {
-    width : 100%;
+.nav-options .search {
+    opacity : 0.7;
 }
 
+.nav-options .search:hover {
+    opacity : 1;
+}
+
+/*************************************************** Library **********************************************************************************/
+.library {
+    margin-top : 0.7rem;
+    height : 100vh;
+}
+
+.options {
+    display : flex;
+    padding : 1rem 0.3rem;
+    justify-content: space-between;
+    align-items : center;
+}
+
+
+.lib-options img {
+    height: 1.25rem;
+}
+
+.lib-options a {
+    margin-left: 0.7rem;
+    color : white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;  
+}
+
+.icons {
+    display : flex;
+}
+
+.icons i {
+    font-size: 1.25rem;
+    margin-right : 2rem;
+    opacity : 0.7;
+}
+
+.lib-options {
+    opacity : 0.7;
+}
+
+.icons i:hover, .lib-options:hover {
+    opacity : 1;
+    font-weight: 900;
+}
+
+
+/************************************************** main-content *****************************************************************************/
 .main-content {
     flex : 1;
-    border-radius : 1rem;
-    background-color: #121212;
     overflow: auto;
+
 }
 
 .music-player {
-    background-color: #000;
-    position : fixed;
+    position : absolute;
+    height : 4.5rem;
+    width : 100vw;
+    background-color: #121212;
     bottom : 0;
-    height : 72px;
-    width : 100%;
 }
