@@ -152,6 +152,10 @@ body {
     flex : 1;
     overflow: auto;
 }
+
+.main-content::-webkit-scrollbar {
+    width: 0px;
+}
 /************************************************** navbar **********************************************************************************/
 nav {
     width : 100%;
@@ -258,7 +262,7 @@ nav {
 .card {
     width : 11rem;
     height : 16.5rem;
-    background-color: #242424;
+    background-color: #282828;
     margin : 1rem;
     padding : 1rem;
     border-radius: 0.5rem;
@@ -298,7 +302,7 @@ footer {
 
 /****************************************************Responseviness********************************************/
 
-@media (max-width : 1000px) {
+@media (max-width : 1250px) {
     .arrow .greater-than, .badges .explore {
         display: none;
     }
@@ -308,7 +312,7 @@ footer {
     }
 }
 
-@media (max-width : 870px) {
+@media (max-width : 1120px) {
     .sidebar {
         width : 4.5rem;
         margin-right : 1rem;
@@ -329,6 +333,13 @@ footer {
     }
 }
 
-@media (max-width : 520px) {
+@media (max-width : 810px) {
+    .cards-container {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
 
+    .cards-container::-webkit-scrollbar {
+        width: 0px;
+    }
 }
