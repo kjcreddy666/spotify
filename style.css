@@ -146,6 +146,7 @@ body {
     border : none;
     padding: 0.25rem 1rem;
 }
+
 /************************************************** main-content *****************************************************************************/
 .main-content {
     flex : 1;
@@ -159,6 +160,8 @@ nav {
     background-color: #525552;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top : 0;
 }
 
 .arrow {
@@ -224,12 +227,119 @@ nav {
     border-radius: 50%;
 }
 
+/************************************************* Albumns ****************************************************/
 
+.cards {
+    display : flex;
+    flex-direction: column;
+    margin-top : 1.25rem;
+}
 
+.heading {
+    width : 100%;
+    height : 3rem;
+    display : flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.heading h2 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.heading a {
+    color : white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-right: 1rem;
+}
+
+.heading a:hover {
+    text-decoration: underline;
+}
+
+.cards-container {
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width : 11rem;
+    height : 16.5rem;
+    background-color: #242424;
+    margin : 1rem;
+    padding : 1rem;
+    border-radius: 0.5rem;
+}
+
+.card img {
+    width : 11rem;
+    height : 11rem;
+    border-radius: 0.5rem;
+}
+
+.card .title {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card .info {
+    margin-top: 0.5rem;
+    opacity: 0.5;
+    font-size: 0.85rem;
+}
+
+/************************************************** footer ***************************************************/
+footer {
+    width : 100%;
+    height : 10rem;
+}
+
+/************************************************** music-player *******************************************/
 .music-player {
     position : absolute;
     height : 4.5rem;
     width : 100vw;
     background-color: #121212;
     bottom : 0;
+}
+
+/****************************************************Responseviness********************************************/
+
+@media (max-width : 1000px) {
+    .arrow .greater-than, .badges .explore {
+        display: none;
+    }
+
+    .badges {
+        width : 15rem;
+    }
+}
+
+@media (max-width : 870px) {
+    .sidebar {
+        width : 4.5rem;
+        margin-right : 1rem;
+    }
+
+    .nav-options, .library {
+        width : 2.8rem;
+        margin-left : 0.7rem;
+        padding-left : 1.5rem;
+    }
+
+    .home a, .search a {
+        display: none;
+    }
+
+    .library .boxes, .lib-options a, .options .icons {
+        display : none;
+    }
+}
+
+@media (max-width : 520px) {
+
 }
