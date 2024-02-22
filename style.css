@@ -334,6 +334,9 @@ footer {
 }
 
 @media (max-width : 810px) {
+    .main {
+        padding-right : 0.75rem;
+    }
     .cards-container {
         overflow-x: auto;
         flex-wrap: nowrap;
