@@ -5,7 +5,6 @@ This project is a Spotify clone, aiming to replicate the user interface of the p
 ## Features
 
 - **Playback Controls**: The interface includes playback controls for playing, pausing, skipping tracks, adjusting volume, and viewing current playback progress.
-- **Playlist Creation and Management**: Users can create, edit, and delete playlists, as well as add and remove songs from their playlists.
 - **Discover Weekly**: A feature that generates a personalized playlist based on the user's listening habits.
 - **Responsive Design**: The Spotify clone is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 
