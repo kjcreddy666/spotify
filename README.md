@@ -1,6 +1,6 @@
 # [Spotify Clone Project](https://kjcreddy666.github.io/spotify)
 
-This project is a Spotify clone, aiming to replicate the user interface of the popular music streaming service using HTML and CSS. The primary goal of this project is to practice front-end development skills by recreating key features of the Spotify platform.
+This project is a Spotify clone, aiming to replicate the user interface of the popular music streaming service using HTML and CSS. The primary goa,l of this project is to practice front-end development skills by recreating key features of the Spotify platform.
 
 ## Features
 
