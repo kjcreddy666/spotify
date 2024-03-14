@@ -26,7 +26,3 @@ To view the Spotify clone locally:
 - **Integration with Spotify API**: Enhance the clone by integrating with the Spotify API to access real music data and playback functionalities.
 - **Social Features**: Implement social features such as following other users, sharing playlists, and collaborative playlist creation.
 - **Improved Recommendations**: Enhance the recommendation engine to provide more accurate and personalized recommendations based on user preferences.
-
-## Credits
-
-This project is created as a learning exercise by [Kappeta Jaya Chandra Reddy](https://github.com/kjcreddy666).
